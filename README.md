@@ -86,7 +86,7 @@ _TBD_
 
 #### Input OTP
 
-_TBD_
+- [input-otp-input](https://github.com/yjose/input-otp-native): 🔐 OTP input for React Native/Expo App: Unstyled, copy-paste examples that are fully tested and compatible with NativeWind.
 
 #### Resizable
 
