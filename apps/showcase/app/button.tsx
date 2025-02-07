@@ -1,6 +1,8 @@
+import { Apple, Bot } from 'lucide-react-native';
 import { View } from 'react-native';
 import { Button } from '~/components/ui/button';
 import { Text } from '~/components/ui/text';
+import { Icon } from '~/lib/icon';
 
 export default function ButtonScreen() {
   return (
@@ -28,6 +30,14 @@ export default function ButtonScreen() {
       </Button>
       <Button variant='link' size='sm'>
         <Text>Link sm</Text>
+      </Button>
+      <Button className='flex-row bg-green-500'>
+        <Icon as={Bot} className='text-primary-foreground mr-1' size={18} />
+        <Text>Android</Text>
+      </Button>
+      <Button variant='secondary' className='flex-row'>
+        <Icon as={Apple} className='text-secondary-foreground mr-1' size={18} />
+        <Text>Apple</Text>
       </Button>
     </View>
   );
